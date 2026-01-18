@@ -1,0 +1,105 @@
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background-color: #ffffff;
+}
+
+/* Layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+/* Hero */
+.hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #444;
+  max-width: 600px;
+}
+
+/* Sections */
+.section {
+  margin-top: 72px;
+}
+
+.section h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* Lists */
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 32px;
+}
+
+.project h3 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.project p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 6px;
+  max-width: 700px;
+}
+
+.tech {
+  font-size: 13px;
+  color: #777;
+}
+
+/* Footer */
+.footer {
+  margin-top: 96px;
+  display: flex;
+  gap: 24px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer a:hover {
+  color: #000;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 56px 16px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+}
